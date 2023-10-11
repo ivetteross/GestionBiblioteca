@@ -12,13 +12,44 @@ public class GestionBiblioteca {
 
         // Arreglos para almacenar libros y usuarios
         Libro[] biblioteca = new Libro[20];
-        Usuario[] usuarios = new Usuario[10];
+        Usuario[] usuarios = new Usuario[12];
 
         // Inicialización de algunos libros y usuarios
-        biblioteca[0] = new Libro("La Odisea", "Homero", "123", true);
-        biblioteca[1] = new Libro("Cien años de soledad", "Gabriel García Márquez", "789", true);
-        usuarios[0] = new Usuario("Juan", "E12345", "Estudiante");
-        usuarios[1] = new Usuario("Maria", "P98765", "Profesor");
+        biblioteca[0] = new Libro("1984", "George Orwell", "123", true);
+        biblioteca[1] = new Libro("Cien años de soledad", "Gabriel García Márquez", "456", true);
+        biblioteca[2] = new Libro("Crimen y castigo", "Fyodor Dostoevsky", "789", true);
+        biblioteca[3] = new Libro("Don Quijote de la Mancha", "Miguel Cervantes", "234", true);
+        biblioteca[4] = new Libro("El Gran Gatsby", "F. Scott Fitzgerald", "567", true);
+        biblioteca[5] = new Libro("El Perfume", "Patrick Süskind", "890", true);
+        biblioteca[6] = new Libro("El alquimista", "Paulo Coelho ", "345", true);
+        biblioteca[7] = new Libro("El Señor de los Anillos", "J.R.R. Tolkien", "678", true);
+        biblioteca[8] = new Libro("La Odisea", "Homero", "901", true);
+        biblioteca[9] = new Libro("La chica del tren", "Paula Hawkins", "432", true);
+        biblioteca[10] = new Libro("La sombra del viento", "Carlos Ruiz Zafón ", "109", true);
+        biblioteca[11] = new Libro("Los juegos del hambre", "Suzanne Collins", "876", true);
+        biblioteca[12] = new Libro("Rayuela", "Julio Cortázar", "543", true);
+        biblioteca[13] = new Libro("Sapiens: De animales a dioses", "Yuval Noah Harari", "210", true);
+        biblioteca[14] = new Libro("Matar a un ruiseñor", "Harper Lee", "321", true);
+        biblioteca[15] = new Libro("Orgullo y prejuicio", "Jane Austen", "654", true);
+        biblioteca[16] = new Libro("Los hombres me explican cosas", "Rebecca Solnit", "987", true);
+        biblioteca[17] = new Libro("La insoportable levedad del ser", "Milan Kundera", "765", true);
+        biblioteca[18] = new Libro("Memorias del subsuelo", "Fyodor Dostoevsky", "012", true);
+        biblioteca[19] = new Libro("Siddhartha", "Hermann Hesse", "098", true);
+        
+        
+        usuarios[0] = new Usuario("Alejandra Perez Espinoza", "E12345", "Estudiante");
+        usuarios[1] = new Usuario("Angela Karina Canseco Cruz", "E23456", "Estudiante");
+        usuarios[2] = new Usuario("Karla Isabel Dorado Padilla", "E34567", "Estudiante");
+        usuarios[3] = new Usuario("Laura Itzel Gress Becerril", "E45678", "Estudiante");
+        usuarios[4] = new Usuario("Laura Ivette Noemi Rosas Ramirez", "E56789", "Estudiante");
+        usuarios[5] = new Usuario("Lesly Adriana Osorio Gonzalez", "E67890", "Estudiante");
+        usuarios[6] = new Usuario("Maria Fernanda Gomez Miranda", "E78901", "Estudiante");
+        usuarios[7] = new Usuario("Maricela Prado Velazquez", "E89012", "Estudiante");
+        usuarios[8] = new Usuario("Paola Ixchel de la Cruz Flores", "E90123", "Estudiante");
+        usuarios[9] = new Usuario("Zayra Lorena Almazo Rosales", "E01234", "Estudiante");
+        usuarios[10] = new Usuario("Alberto Luebbert", "P12345", "Profesor");
+        usuarios[11] = new Usuario("Brenda Morales", "P98765", "Profesor");
+        
 
         int opcion = 0;
         boolean entradaValida = false;
